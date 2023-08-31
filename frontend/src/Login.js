@@ -7,17 +7,9 @@ function Login() {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p>
-                    Login here
+                    Welcome to Jide's Battle World
                 </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-
-                </a>
+                <p> Login box here </p>
             </header>
         </div>
     );
