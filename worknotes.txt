@@ -17,3 +17,6 @@ and connect it to the frontend
 ---- also create the leaderboard logic which looks simple to acieve within timeframe
 
 // quickly spin off authentication with passport sample guide
+
+Status at 14:08
+... user creation done but without validation yet
