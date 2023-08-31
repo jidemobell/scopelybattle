@@ -20,3 +20,19 @@ and connect it to the frontend
 
 Status at 14:08
 ... user creation done but without validation yet
+
+
+##########################  BATTLE IDEA #########################
+[(:-) if it makes any sense ]
+// many players are involved in a battle
+// since attacking player specify who they wish to attack
+// selected player to be attacked will have a role opponent set to active
+// battle implements an attack logic that checks for attack power and attack turn(active or not)
+// attack can be thougt of as an interface contract action (though abstraction no possible in JS)
+// probably implement it as some function logic
+
+---> Game ----> (Battle(s))  -----> ({ battle 1: players: [ {} ] , turn: '', turn_action: ''}
+
+
+
+Final notes: Time is almost up: I will add some code to the front
