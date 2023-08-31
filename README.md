@@ -36,3 +36,10 @@ $ npm run dev
 $ curl http://localhost:6600/    "hello scopely"
 $ curl http://localhost:6600/api/leaders    {"leadersFromBoard":[{"id":1,"player":2,"rank":1,"score":10000}]}%  
 ```
+
+### Frontend
+```sh
+$ cd frontend
+$ npm start only /landing available at the omoment
+
+```
