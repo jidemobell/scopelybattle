@@ -27,7 +27,7 @@ options.secretOrKey = 'secret'
 
 const jwtLocal = new JwtStrategy(options, async (payload, done) =>{
     try {
-        let user = await Knex('players').select('*').where('id', payload.sub)
+        let user = await Knex('players').select('*').where('identifier', payload.sub)
         return done(null, user);
     } catch (err) {
         return done(null, false);
