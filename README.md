@@ -1,4 +1,8 @@
 # scopelybattle
+
+> [!NOTE]  
+> Please read implementation notes in the file worknotes.txt
+
 ### Folder structure
 
 ```sh
