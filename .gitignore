@@ -1,0 +1,8 @@
+env/
+database/.env
+node/.env
+.ebextensions/*
+database/pgdata
+.DS_Store
+**/node_modules/
+**/.idea/
