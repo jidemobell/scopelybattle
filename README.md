@@ -30,4 +30,5 @@ $ npm run dev
 
 ```sh
 $ curl http://localhost:6600/    "hello scopely"
+$ curl http://localhost:6600/api/leaders    {"leadersFromBoard":[{"id":1,"player":2,"rank":1,"score":10000}]}%  
 ```
