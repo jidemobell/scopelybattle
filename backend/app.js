@@ -7,7 +7,7 @@ const {join} = require("path");
 
 const app = express()
 const playerRouter = require('./routes/player')
-// const authMiddleware = require("./middleware/auth");
+const leaderboardRouter = require('./routes/leaderboard')
 
 
 
@@ -21,7 +21,8 @@ app.use(cors())
 app.get('/', (req, res) => {
     res.send('hello scopely')
 })
-app.use('/api', playerRouter);
+app.use('/api', playerRouter)
+app.use('/api', leaderboardRouter)
 
 
 

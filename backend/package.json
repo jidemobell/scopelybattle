@@ -6,6 +6,7 @@
   "scripts": {
     "test": "NODE_ENV=test jest  --verbose  --no-cache --watchAll --testPathPattern=./test/* --detectOpenHandles --forceExit",
     "migrate": "knex migrate:latest --knexfile knexfile.js",
+    "seed": "knex seed:run --knexfile knexfile.js",
     "dev": "NODE_ENV=development nodemon server"
   },
   "keywords": [],
