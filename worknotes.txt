@@ -1,0 +1,19 @@
+started (12:43)
+prog environment
+--- websorm with basic plugins and tabnine suggestions (AI)
+--- eslint to check for standards
+
+Backend enironment
+--- install backend dependencies
+--- spin off a simple express server
+--- I decided on using knex with sqlite but initializing knex environmentt with knex-cli for migrations
+--- and added a migrate command to re-create the database as it is
+
+Thought process (12: 54)
+---- Being mindful of time constrainst, I need to be a ble to create a
+working backend that should be able to implement a player
+and connect it to the frontend
+
+---- also create the leaderboard logic which looks simple to acieve within timeframe
+
+// quickly spin off authentication with passport sample guide

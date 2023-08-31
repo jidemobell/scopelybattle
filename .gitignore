@@ -6,3 +6,4 @@ database/pgdata
 .DS_Store
 **/node_modules/
 **/.idea/
+**/*.sqlite
